@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1395581159 source:e:\source\studentmanage\student.cpp
+	"Student.h"
+
+1395582010 e:\source\studentmanage\student.h
+	<string>
+	<iostream>
+	<fstream>
+
+1395582010 source:e:\source\studentmanage\main.cpp
+	<iostream>
+	"Student.h"
+	"MainScreen.h"
+
+1395581628 e:\source\studentmanage\mainscreen.h
+	<iostream>
+	<stdlib.h>
+	"Student.h"
+
+1395581715 source:e:\source\studentmanage\mainscreen.cpp
+	"MainScreen.h"
+
