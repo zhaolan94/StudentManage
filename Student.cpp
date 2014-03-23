@@ -213,7 +213,7 @@ void StudentDataSet:: SaveToFile()
 
 
         ofstream outfile("out.txt");
-        streambuf *streams=cout.rdbuf();//保存原来的cout对象
+        streambuf *streams=cout.rdbuf();
         cout.rdbuf(outfile.rdbuf());
         Display();
         cout.rdbuf(streams);
